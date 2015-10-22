@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMU-Park</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- navigation -->
+          <ul id="nav" class="nav nav-tabs">
+            <li class="active"><a href="index.html">Lot Info</a></li>
+            <li><a href="updates.html">Updates</a></li>
+            <li><a href="payment.html">Payment</a></li>
+            <li><a href="map.html">Map</a></li>
+          </ul>
+        </div><!-- end col-sm-12 -->
+      </div><!-- end nav row -->
+
+      <div id="body_content" class="row">
+        <div class="col-sm-12">
+            <!-- body content -->
+            <div class="dropdown">
+              <button id="lotBtn" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Action <span class="caret"></span>
+              </button>
+              <ul id="lotMenu" class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Festival</li>
+                <li><a id="lotElement" href="#">C-11</a></li>
+                <li><a id="lotElement" href="#">C-12</a></li>
+              </ul>
+            </div>
+        </div><!-- end col-sm-12 -->
+        <h2>Lot-ID: C-12/C-11</h2>
+        <img src="images/festival.png"/>
+
+        <h3>Hours:</h3>
+        <ul>
+          <li>Commuter: 24 Hours a Day</li>
+          <li>Resident: 7pm - 4am</li>
+        </ul>
+
+        <p>Lot C-12/C-11 has 222 spaces avaiable to park in.</p>
+      </div><!-- end body content row -->
+      
+    </div><!-- end container -->
+
+
+    <!-- jQuery and Bootstrap links - do not delete! -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lotInfo.js"></script>
+    
+  </body>
+</html>
